@@ -14,12 +14,9 @@ The initial objective is to determine if an individual's income surpasses $50,00
 Several questions will be asked:
 
 1. What feature contriuted the most to the outcome?
-
 2. How accurate is the Random Forest model?
-
-3. What are the model's precison, recall, and F1 scores?
-
-4. What advantage does a random forest have over a single decision tree?
+3. What advantage does a random forest have over a single decision tree?
+4. What percentage of samples have incomes less than 50k and greater than 50k?
    
 
 
@@ -38,9 +35,12 @@ A dataset that can be used to train the machine-learning model has been found. I
 TBD...
 
 1. What feature contriuted the most to the outcome?
-
+    - capital-gain 
 2. How accurate is the Random Forest model?
+    - The greatest accuracy is 84.4% at a max_depth of 9 which was an increase from the initial model at 83.5.
+3. What advantage does a random forest have over a single decision tree?
+    - Decision trees often tend to fit too closely to the training data, which can lead to overfitting. In contrast, random forests help to lower this variance, making them a great option for addressing overfitting challenges.\
 
-3. What are the model's precison, recall, and F1 scores?
-
-4. What are the model's precison, recall, and F1 scores?
+6. What percentage of samples have incomes less than 50k and greater than 50k?
+    - less than or equal to 50k ~ 76%
+    - greater than 50k ~ 24%
