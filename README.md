@@ -1,5 +1,7 @@
 # Building a Random Forest - Census Income
 
+## [Demo](https://nbviewer.org/github/tyrantdavis/random-forests-census-income/blob/main/random-forest.ipynb)
+
 ## Scenario
 Professors at a college are eager to integrate machine learning into their respective disciplines. The Economics department aims to enhance students' understanding of the interactions among various income factors. In this project, the task is to determine if an individual's income surpasses $50,000 per year using census data as a basis for the predictions.
 
